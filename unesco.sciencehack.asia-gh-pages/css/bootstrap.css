@@ -5772,3 +5772,26 @@ button.close {
     display: none !important;
   }
 }
+/* Remove oval background and make the button clean */
+.register-now {
+  margin-top: 20px;
+}
+
+.register-now .register-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 2px solid #fff; /* White border for the button */
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  text-decoration: none;
+}
+
+.register-now .register-btn:hover {
+  background-color: #fff; /* White background on hover */
+  color: #333; /* Dark text color on hover */
+}
